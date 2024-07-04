@@ -1,0 +1,292 @@
+<!-- HTML code -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Rai - Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-top mr-2">
+                Abhishek Rai
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.pdf" target="_blank">Resume</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Add a margin between the navbar and the content below -->
+    <div class="container">
+        <!-- Your content here -->
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <img src="logo.png" alt="Profile Picture" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <h3>Who I Am</h3>
+                    <p>Hello! I'm Abhishek Rai, a highly motivated and aspiring web developer with a strong foundation in web development principles and a keen interest in data science and software development.</p>
+                    <p>I'm currently pursuing a degree in B.Tech CSE and have a good command of Data Structures and Algorithms. I've further honed my problem-solving skills through competitive programming.</p>
+                    <h3>My Skills</h3>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-code"></i> Programming languages: C++, Java, JavaScript, Python</li>
+                        <li><i class="fas fa-database"></i> Databases: MySQL, MongoDB</li>
+                        <li><i class="fas fa-chart-bar"></i> Data Science: Scikit-learn, Machine Learning</li>
+                        <li><i class="fas fa-web"></i> Web Development: MERN Stack, HTML, CSS, Bootstrap</li>
+                    </ul>
+                    <h3>My Interests</h3>
+                    <p>I'm passionate about building personal projects that combine my interests in web development, data science, and machine learning. I'm always looking to learn from industry professionals and contribute to a team environment, expanding my skillset in data analysis and software development.</p>
+                    <h3>Education</h3>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-graduation-cap"></i> Pursuing B.Tech CSE from Galgotias University, Greater Noida, India</li>
+                        <li><i class="fas fa-book"></i> Completed Junior High Education from Vidya Mandir Public School, Faridabad, India</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Projects Section -->
+<section id="projects" class="bg-iron py-5 text-dark">
+    <div class="container">
+        <h1 class="display-4 text-light">Projects</h1>
+        <p class="lead text-white-50">Here are some of my personal projects that showcase my skills and interests in web development and data science.</p>
+        <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active align-center">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <div class="card w-100 mb-4">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="logo.png" alt="Diabetes Checker" width="50" height="50"class="img-fluid">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Diabetes Checker</h5>
+                                            <p class="card-text">A Quart web application that incorporates machine learning to predict the risk of diabetes based on user input.</p>
+                                            <p class="card-text">Technologies: hypercorn, numpy, pandas, Quart, scikit-learn</p>
+                                            <a href="https://github.com/abhirai7/Diabetes-Checker" target="_blank" class="btn btn-spicy-mix">View on GitHub</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <div class="card mb-4">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="blog-site-screenshot.png" alt="Blog Site" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blog Site</h5>
+                                            <p class="card-text">A dynamic and user-friendly blog writing site built using JavaScript, Express Js, EJS, MongoDB, and Mongoose.</p>
+                                            <p class="card-text">Technologies: JavaScript, Express Js, EJS, MongoDB, Mongoose</p>
+                                            <a href="https://github.com/abhirai7/blog-site" target="_blank" class="btn btn-spicy-mix">View on GitHub</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <div class="card mb-4">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="student-management-system-screenshot.png" alt="Student Management System" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Student Management System</h5>
+                                            <p class="card-text">A Java-based GUI application designed to manage student information, enroll students in courses, assign grades, and display student performance.</p>
+                                            <p class="card-text">Technologies: Java swing, awt, SQL</p>
+                                            <a href="https://github.com/abhirai7/Student-Management-System" target="_blank" class="btn btn-spicy-mix">View on GitHub</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev" >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next" style="background-color: #333; border-color: #333;">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <p class="text-center text-white-50">Want to explore more projects or collaborate on a new one? <a href="mailto:abhirai5031k@gmail.com" class="btn btn-spicy-mix">Get in touch!</a></p>
+    </div>
+</section>
+    
+    <!-- Skills Section -->
+    <section id="skills" class="bg-light py-5 text-dark">
+        <div class="container">
+          <h1 class="display-3 fw-bold text-dark">Skills</h1>
+          <p class="lead text-secondary">Here are some of the technical and soft skills I possess:</p><br>
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="h4 fw-bold text-center">Technical Skills</h2>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i class="fas fa-code"></i> Competitive Programming (70+ questions on LeetCode, 5 stars on Hackerrank)
+                  <span class="badge badge-secondary">Expert</span>
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-globe"></i> MERN Stack Web Development
+                  <span class="badge badge-secondary">Proficient</span>
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-snake"></i> Python Programming (5 stars on Hackerrank)
+                  <span class="badge badge-secondary">Advanced</span>
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-language"></i> Proficient in C++, Java, JavaScript
+                  <span class="badge badge-secondary">Intermediate</span>
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-database"></i> MySQL, MongoDB
+                  <span class="badge badge-secondary">Basic</span>
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-object-group"></i> Object-Oriented Programming
+                  <span class="badge badge-secondary">Intermediate</span>
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-robot"></i> Scikit-learn (Machine Learning)
+                  <span class="badge badge-secondary">Basic</span>
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-html5"></i> HTML, CSS, Bootstrap
+                  <span class="badge badge-secondary">Proficient</span>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h2 class="h4 fw-bold text-center">Soft Skills</h2>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i class="fas fa-comment"></i> Verbal and Written Communication
+                  <span class="badge badge-secondary">Strong</span>
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-users"></i> Teamwork and Collaboration
+                  <span class="badge badge-secondary">Strong</span>
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-bullhorn"></i> Leadership
+                  <span class="badge badge-secondary">Developing</span>
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-clock"></i> Time Management
+                  <span class="badge badge-secondary">Strong</span>
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-sync"></i> Flexibility and Adaptability
+                  <span class="badge badge-secondary">Strong</span>
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-heart"></i> Patience and Empathy
+                  <span class="badge badge-secondary">Strong</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+        <!-- Contact Section -->
+        <section id="contact" class="bg-light py-5 text-dark">
+            <div class="container border-black-rounded">
+              <h1 class="display-3 fw-bold text-dark">Get in Touch</h1>
+              <p class="lead text-secondary">Want to discuss a project or just say hello? I'd love to hear from you!</p>
+              <div class="row">
+                <div class="col-md-6">
+                  <h2 class="h4 fw-bold">Contact Information</h2>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      <i class="fas fa-phone"></i> 
+                      <span >Phone: <a href="tel:+91 8287700967">+91 8287700967</a></span>
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-envelope"></i> 
+                      <span >Email: <a href="mailto:abhirai5031k@gmail.com">abhirai5031k@gmail.com</a></span>
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-map-marker-alt"></i> 
+                      <span>Address: Faridabad, India 121001</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <h2 class="h4 fw-bold">Social Profiles</h2>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      <i class="fab fa-linkedin"></i> 
+                      <span class="border- ">LinkedIn: <a href="https://www.linkedin.com/in/abhishek-rai-67b996251/">Abhishek Rai</a></span>
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fab fa-github"></i> 
+                      <span class="border- ">GitHub: <a href="https://github.com/abhirai7/">abhirai7</a></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+    
+        <!-- Footer -->
+        <footer class="bg-alabaster py-3">
+            <div class="container">
+                <p class="text-center text-dark">Copyright &copy; 2024 Abhishek Rai. All rights reserved.</p>
+            </div>
+        </footer>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
