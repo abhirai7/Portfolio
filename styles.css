@@ -175,3 +175,81 @@ lead {
     font-weight: bold;
     margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
+    .navbar-nav li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    .carousel-item .row {
+      flex-direction: column;
+    }
+    .card img {
+      height: auto;
+    }
+  }
+
+  .container {
+    padding: 2rem;
+  }
+  section {
+    margin-bottom: 4rem;
+  }
+
+
+  .btn-spicy-mix:hover {
+    background-color: #e34c00;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+  .nav-link:hover {
+    color: #f4511e;
+    text-decoration: underline;
+  }
+
+/* Contact Form Styling */
+#contactForm {
+    background-color: #f8f9fa; /* Light background */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 2rem; /* Spacing inside the form */
+    margin-top: 2rem; /* Space above the form */
+  }
+  
+  #contactForm .form-label {
+    color: #333; /* Dark text for labels */
+    font-weight: bold; /* Bold labels */
+  }
+  
+  #contactForm .form-control {
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    padding: 0.75rem; /* Spacing inside inputs */
+    font-size: 1rem; /* Consistent font size */
+  }
+  
+  #contactForm .form-control:focus {
+    border-color: #f4511e; /* Highlight color on focus */
+    box-shadow: 0 0 5px rgba(244, 81, 30, 0.5); /* Subtle shadow on focus */
+  }
+  
+  #contactForm textarea {
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  #contactForm .btn-spicy-mix {
+    background-color: #f4511e; /* Primary button color */
+    color: #fff; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 0.75rem 1.5rem; /* Button padding */
+    font-size: 1rem; /* Consistent font size */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  #contactForm .btn-spicy-mix:hover {
+    background-color: #e34c00; /* Darker shade on hover */
+  }
